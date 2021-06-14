@@ -74,7 +74,7 @@ function showUsersData() {
     //         //document.write (names[i].salary + " , ")
             
     //         let stat = document.getElementById("userStat");
-    //         stat.innerHTML = 
+    //         stat.innerHTML += 
     //         `<p> ${names[i].salary} </p>`;
     //     } else {
     //         //document.write (names[i].salary + " , ")
@@ -100,8 +100,12 @@ function showUsersData() {
         //console.log(names[i]);
 
         if (names[i].salary > 30000) {
-            console.log(names[i]);
-            //console.log(names[i].salary);
+            //console.log(names[i]);
+            console.log(names[i].salary);
+
+            let stat = document.getElementById("userStat");
+            stat.innerHTML += 
+            ` <p>${names[i].salary} <br> </p>`;            
         }
     }
 
