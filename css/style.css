@@ -11,7 +11,9 @@ body {
 
 .user-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 .user-section .user-data {
@@ -66,6 +68,10 @@ body {
 .btn:hover {
   background-color: #ffffff;
   color: #6b6b6b;
+}
+
+.result {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
