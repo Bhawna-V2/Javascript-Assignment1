@@ -68,10 +68,15 @@ body {
 .btn:hover {
   background-color: #ffffff;
   color: #6b6b6b;
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .result {
   display: flex;
+  flex-direction: column;
+}
+.result button {
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
