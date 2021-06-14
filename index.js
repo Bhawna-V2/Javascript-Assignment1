@@ -64,23 +64,45 @@ function showUsersData() {
             salary: 25000,
         },
     ]
+    // BASIC FOR
 
+    // for(var i=0; i < names.length; i++) {
 
-    for(var i=0; i < names.length; i++) {
+    //     if (names[i].salary > 30000) {
+    //         console.log(names[i].salary);
+
+    //         //document.write (names[i].salary + " , ")
+            
+    //         let stat = document.getElementById("userStat");
+    //         stat.innerHTML = 
+    //         `<p> ${names[i].salary} </p>`;
+    //     } else {
+    //         //document.write (names[i].salary + " , ")
+    //     }
+        
+    //     //console.log(names[i]);
+    // }
+
+    // FOR IN
+
+    // for (obj in names) {
+    //     //console.log(names[obj]);
+
+    //     if(names[obj].salary > 30000) {
+    //         console.log(names[obj]);
+    //         console.log(names[obj].salary);
+    //     }
+    // }
+
+    // FOR OF
+
+    for (var i in names) {
+        //console.log(names[i]);
 
         if (names[i].salary > 30000) {
-            console.log(names[i].salary);
-
-            //document.write (names[i].salary + " , ")
-            
-            let stat = document.getElementById("userStat");
-            stat.innerHTML = 
-            `<p> ${names[i].salary} </p>`;
-        } else {
-            //document.write (names[i].salary + " , ")
+            console.log(names[i]);
+            //console.log(names[i].salary);
         }
-        
-        //console.log(names[i]);
     }
 
    
