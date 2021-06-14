@@ -51,3 +51,19 @@ body {
         }
     }
 }
+
+.btn {
+    background-color: #6b6b6b;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50pc;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+        background-color: #ffffff;
+        color: #6b6b6b;
+    }
+}
